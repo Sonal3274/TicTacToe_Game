@@ -28,5 +28,5 @@ Board.kt contains the code for the board and then there is main file to access t
 
 ## Features to be added
 
-- [ ] welcome greeting.
+- [x] welcome greeting.
 - [ ] Personalized greeting.
