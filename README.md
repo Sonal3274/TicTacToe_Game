@@ -2,6 +2,14 @@
 
 This is the code for standard Tic-Tac-Toe Game.
 
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Prerequisites](#prerequisites)
+- [Running the project](#running-the-project)
+- [Features to be added](#features-to-be-added)
+- [Contributing](#contributing)
+
 ## Project Description 
 
 Tic-Tac-Toe is a double-player game. Both the players are humans.
@@ -18,7 +26,13 @@ vertically, horizontally, or diagonally wins the game, and the other loses the g
 Also, there is a possibility that the game might end with a tie and no one wins if no player is able
 to get his/her symbols (marks) in a row.
 
-## Running the Project
+## Prerequisites
+* Kotlin 1.8
+* JVM Version 1.7.20
+* Gradle 7.4.2
+* IntelliJ IDEA
+
+## Running the project
 
 **1. Required to run project:**
  - To run this project use IntelliJIDEA.
@@ -36,5 +50,14 @@ to get his/her symbols (marks) in a row.
 **5. In case of an error when building project, update your gradle version, Build Tools download**
 
 ## Features to be added
-
 - [x] welcome greeting.
+
+## Contributing
+Pull requests are welcome. 
+For major changes, please open an issue first to discuss what you would like to change.
+
+
+
+
+
+
