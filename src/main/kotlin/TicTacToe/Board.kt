@@ -2,11 +2,17 @@ package TicTacToe
 
 import kotlin.math.pow
 
-class Board(private val n: Int) {
+class Board(private val n: Int, private val maxN: Int = 10) {
     private val empty = "___"
     var moveCount = 0
     var isgameOver = false
     var grid = Array(n) { Array(n) { empty } }
+
+    init {
+        if (n > maxN) {
+            throw IllegalArgumentException("n cannot be greater than $maxN")
+        }
+    }
 
     fun resetBoard() {
         grid = Array(n) { Array(n) { empty } }

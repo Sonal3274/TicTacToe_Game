@@ -27,7 +27,7 @@ Also, there is a possibility that the game might end with a tie and no one wins 
 to get his/her symbols (marks) in a row.
 
 ## Prerequisites
-* Kotlin 1.8
+* Kotlin 1.8.0
 * JVM Version 1.7.20
 * Gradle 7.4.2
 * IntelliJ IDEA
@@ -50,7 +50,11 @@ to get his/her symbols (marks) in a row.
 **5. In case of an error when building project, update your gradle version, Build Tools download**
 
 ## Features to be added
-- [x] welcome greeting.
+- [x] welcome greeting
+- [ ] Architecture diagram
+- [ ] a max size of board
+- [ ] quit the game midWay
+- [ ] Tests 
 
 ## Contributing
 Pull requests are welcome. 
