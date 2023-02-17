@@ -8,6 +8,7 @@ This is the code for standard Tic-Tac-Toe Game.
 - [Prerequisites](#prerequisites)
 - [Running the project](#running-the-project)
 - [Features to be added](#features-to-be-added)
+- [Architecture Diagram](#architecture-diagram)
 - [Contributing](#contributing)
 
 ## Project Description 
@@ -49,9 +50,12 @@ to get his/her symbols (marks) in a row.
 
 **5. In case of an error when building project, update your gradle version, Build Tools download**
 
+## Architecture Diagram
+Here's the link: https://app.diagrams.net/#G1HVhPZjsVMtZWiQs63A_z1eQKi2-XtZds
+
 ## Features to be added
 - [x] welcome greeting
-- [ ] Architecture diagram
+- [x] Architecture diagram
 - [ ] a max size of board
 - [ ] quit the game midWay
 - [ ] Tests 
