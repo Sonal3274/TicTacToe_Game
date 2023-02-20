@@ -13,7 +13,11 @@ fun main() {
     println("Please enter size of your board:")
     val scanner = Scanner(System.`in`)
     val size = Integer.parseInt(scanner.nextLine())
-
+    try {
+        val board = Board(11) // Try to create a board with n = 11 (which should throw an exception)
+    } catch (e: IllegalArgumentException) {
+        println("Error: ${e.message}")
+    }
     board = Board(size)
     board.printBoard()
 
