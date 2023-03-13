@@ -33,6 +33,11 @@ class Board(private val n: Int, private val maxN: Int = 10) {
     }
 
     fun placePiece(x: Int, y: Int, move: String) {
+        if (move == "q" || move == "quit") {
+            isgameOver = true
+            return
+        }
+
         if (!isgameOver && isPositionValid(x, y) && grid[x][y] == empty) {
             moveCount++
             grid[x][y] = move

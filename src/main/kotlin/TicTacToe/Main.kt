@@ -7,17 +7,19 @@ private val player1 = "x"
 private val player2 = "o"
 private var currentPlayer = ""
 private var answer = ""
+
 fun main() {
 
     println("Hello, welcome to TicTacToe game")
     println("Please enter size of your board:")
     val scanner = Scanner(System.`in`)
     val size = Integer.parseInt(scanner.nextLine())
-    try {
-        val board = Board(11) // Try to create a board with n = 11 (which should throw an exception)
-    } catch (e: IllegalArgumentException) {
-        println("Error: ${e.message}")
+
+    if (size > 10) {
+        println("Invalid board size. Please enter a size less than or equal to 10.")
+        return
     }
+
     board = Board(size)
     board.printBoard()
 
