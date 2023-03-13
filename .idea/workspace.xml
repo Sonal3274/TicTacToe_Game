@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6384a42-3c2d-48be-9739-7a35847224eb" name="Changes" comment="Updated for maximum board size">
+    <list default="true" id="b6384a42-3c2d-48be-9739-7a35847224eb" name="Changes" comment="Displays error message instead of exception for max board size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TicTacToe/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TicTacToe/Board.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/TicTacToe/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TicTacToe/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1676969316411" duration="284000" />
       <workItem from="1678195898068" duration="1220000" />
       <workItem from="1678355031443" duration="1200000" />
-      <workItem from="1678728106996" duration="307000" />
+      <workItem from="1678728106996" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="Made changes in ReadMe">
       <created>1672393474902</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676877343859</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Displays error message instead of exception for max board size">
+      <created>1678728582950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678728582950</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +174,7 @@
     <MESSAGE value="Updated ReadMe and added code for maximum board size" />
     <MESSAGE value="Updated ReadMe with link to architecture diagram" />
     <MESSAGE value="Updated for maximum board size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated for maximum board size" />
+    <MESSAGE value="Displays error message instead of exception for max board size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Displays error message instead of exception for max board size" />
   </component>
 </project>

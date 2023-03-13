@@ -26,10 +26,20 @@ fun main() {
     while (!board.isgameOver) {
         takeTurns()
         println("$currentPlayer's turn")
-        println("Enter row number:")
-        var row = Integer.parseInt(scanner.nextLine())
-        println("Enter column number:")
-        var col = Integer.parseInt(scanner.nextLine())
+        println("Enter row number (type 'exit' to quit the game):")
+        var input = scanner.nextLine()
+        if (input.equals("exit", ignoreCase = true) || input.equals("quit", ignoreCase = true)) {
+            println("Thanks for playing!")
+            return
+        }
+        var row = Integer.parseInt(input)
+        println("Enter column number (type 'exit' to quit the game):")
+        input = scanner.nextLine()
+        if (input.equals("exit", ignoreCase = true) || input.equals("quit", ignoreCase = true)) {
+            println("Thanks for playing!")
+            return
+        }
+        var col = Integer.parseInt(input)
         board.placePiece(row - 1, col - 1, currentPlayer)
         if (board.isgameOver) {
             println("Do you want to play again? Type y or yes")

@@ -56,8 +56,8 @@ Here's the link: https://app.diagrams.net/#G1HVhPZjsVMtZWiQs63A_z1eQKi2-XtZds
 ## Features to be added
 - [x] welcome greeting
 - [x] Architecture diagram
-- [ ] a max size of board
-- [ ] quit the game midWay
+- [x] a max size of board
+- [x] quit the game midWay
 - [ ] Tests 
 
 ## Contributing
